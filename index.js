@@ -10,15 +10,15 @@ rl.question("First number for sum: ", (first) => {
         var math = parseInt(first) + parseInt(second)
 
         if (math > 10) {
-            var minusRseult = 10 - math
+            var minusResult = 10 - math
 
-            console.log("The result is: " + "(" + first + " + " + second + ")" + " " + minusRseult + " = 10")
+            console.log("The result is: " + "(" + first + " + " + second + ")" + " " + minusResult + " = 10")
         }
 
         if (math < 10) {
-            var sumRseult = 10 - math
+            var sumResult = 10 - math
 
-            console.log("The result is: " + "(" + first + " + " + second + ")" + " + " + sumRseult + " = 10")
+            console.log("The result is: " + "(" + first + " + " + second + ")" + " + " + sumResult + " = 10")
         }
     })
 })
