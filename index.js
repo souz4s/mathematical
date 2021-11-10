@@ -13,12 +13,14 @@ rl.question("First number for sum: ", (first) => {
             var minusResult = 10 - math
 
             console.log("The result is: " + "(" + first + " + " + second + ")" + " " + minusResult + " = 10")
+            rl.close()
         }
 
         if (math < 10) {
             var sumResult = 10 - math
 
             console.log("The result is: " + "(" + first + " + " + second + ")" + " + " + sumResult + " = 10")
+            rl.close()
         }
     })
 })
